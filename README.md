@@ -1,6 +1,6 @@
 # Implicit VR User Authentication
 
-Document for submitted paper *When (Inter)actions Speak Louder Than
+Document for accepted paper *When (Inter)actions Speak Louder Than
 (Pass)words: Task-Based Evaluation of Implicit
 Authentication in Virtual Reality* at RAID 2025.
 
