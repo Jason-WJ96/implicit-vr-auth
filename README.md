@@ -15,9 +15,9 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 ## Three Tasks for  Authentication
 
 <p align="center">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" style="height:auto; width:30%; margin-right:5px;">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" style="height:auto; width:30%; margin-right:5px;">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" style="height:auto; width:30%;">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" style="height:auto; width:auto; margin-right:105px;">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" style="height:auto; width:auto; margin-right:10px;">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" style="height:auto; width:auto;">
 </p>
 
 <hr>
