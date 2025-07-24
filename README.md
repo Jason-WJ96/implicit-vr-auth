@@ -6,7 +6,7 @@
 ##### Sungkyunkwan University*
 
 <div align="center">
-<img src="https://github.com/Jason-WJ96/implicit-vr-auth/tree/main/figures/System_overview.pdf" width=100% height=100%>
+<img src="https://github.com/Jason-WJ96/implicit-vr-auth/tree/main/figures/System_overview.jpg" width=100% height=100%>
 </div>
 
 ## Abstract
