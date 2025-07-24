@@ -12,9 +12,17 @@
 ## Abstract
 We present a practical implicit authentication system for Virtual Reality (VR) that uses natural interaction tasks—grabbing, pointing, and typing—as behavioral biometrics. The system extracts 221 features from head-mounted and controller sensors and is trained as a lightweight SVM-based binary classifier using data from legitimate users and a small set of reference users to simulate attacker behavior. In a 24-participant study, our system achieved strong authentication performance, with median Equal Error Rates (EERs) of 0.4% for grabbing, 2.6% for pointing, and 0.3% for typing. Designed for on-device deployment, it requires no GPU support, completes inference within 1 second, and maintains a compact model size under 0.2 MB, enabling efficient, real-time authentication on standalone VR headsets. Security evaluations with attacker-in-the-loop experiments across no-knowledge, shoulder-surfing, and videoreplay conditions revealed clear trade-offs. Typing and pointing offered strong resistance to impersonation, while grabbing, despite high usability, was more vulnerable under video replay with a 23.8% attack success rate. These results demonstrate that secure, accurate, and real-time implicit authentication is feasible in VR, with task-specific characteristics enabling flexible deployment based on security and usability needs.
 
+## Three Tasks for  Authentication
+
+<p align="center">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="200">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" height="200">
+  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="200">
+</p>
+
 <hr>
 
-# 1. Within Python Environment
+# How To Run
 
 ## 1. Prerequisites
 This study has been run and tested in *Python==3.9.12*, in the following environment:
@@ -37,7 +45,9 @@ pip3 install -r requirements.txt
 
 If the installation via `pip3 install -r requirements.txt` fails, please install the required pip libraries manually by running each command listed in `pip_install_list.txt` inside your python virtual environment.
 
-## 3. Dataset
+<hr>
+
+# Dataset
 We opensource the dataset collected from 24 participants in our user study. Due to privacy concerns, we do not provide the raw sensor data of participants. Instead, we share feature data that was extracted through the feature extraction process described in our paper.
 
 The dataset is organized into three CSV files, each corresponding to a specific task. These are available in `./dataset` directory.
