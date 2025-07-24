@@ -1,10 +1,13 @@
-# Implicit VR User Authentication
+<!-- # Implicit VR User Authentication -->
 
-## When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
-### Accepted to the RAID 2025
+# When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
+### *Accepted to the RAID 2025*
 
-#### Woojin Jeon, Chaejin Lim, and Hyoungshick Kim.
-##### Sungkyunkwan University
+#### Woojin Jeon*, Chaejin Lim*, and Hyoungshick Kim*.
+##### Sungkyunkwan University*
+
+## Abstract
+We present a practical implicit authentication system for Virtual Reality (VR) that uses natural interaction tasks—grabbing, pointing, and typing—as behavioral biometrics. The system extracts 221 features from head-mounted and controller sensors and is trained as a lightweight SVM-based binary classifier using data from legitimate users and a small set of reference users to simulate attacker behavior. In a 24-participant study, our system achieved strong authentication performance, with median Equal Error Rates (EERs) of 0.4% for grabbing, 2.6% for pointing, and 0.3% for typing. Designed for on-device deployment, it requires no GPU support, completes inference within 1 second, and maintains a compact model size under 0.2 MB, enabling efficient, real-time authentication on standalone VR headsets. Security evaluations with attacker-in-the-loop experiments across no-knowledge, shoulder-surfing, and videoreplay conditions revealed clear trade-offs. Typing and pointing offered strong resistance to impersonation, while grabbing, despite high usability, was more vulnerable under video replay with a 23.8% attack success rate. These results demonstrate that secure, accurate, and real-time implicit authentication is feasible in VR, with task-specific characteristics enabling flexible deployment based on security and usability needs.
 
 <hr>
 
@@ -16,7 +19,7 @@ This study has been run and tested in *Python==3.9.12*, in the following environ
 
 ## 2. Download Repository
 
-To access the full source code, please click the **"Download Repository"** button located at the top right corner of the following page: <a href="https://anonymous.4open.science/r/implicit-vr-auth-C4D9/README.md">https://anonymous.4open.science/r/implicit-vr-auth-C4D9/README.md</a>
+To access the full source code, please click the **"Download Repository"** button located at the top right corner of the following page: <a href="https://github.com/Jason-WJ96/implicit-vr-auth">https://github.com/Jason-WJ96/implicit-vr-auth</a>
 
 ## 3. Python Venv
 To run the source codes in python virtual environment run the following code. 
@@ -41,3 +44,9 @@ pointing_Dataframe_all.csv
 typing_Dataframe_all.csv
 ```
 Each file contains the following columns: *Index*, *Name*, *Study*, and 224 extracted features.
+
+<hr>
+
+If you find it is helpful and used for publication, please kindly cite our work as:
+```
+```
