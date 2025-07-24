@@ -19,11 +19,11 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
   <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" style="height:150px; width:auto; margin-right:10px;">
   <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" style="height:150px; width:auto;">
 </p> -->
-<table align="center">
+<table align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
-    <td><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="150"></td>
-    <td><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" height="150"></td>
-    <td><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="150"></td>
+    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="200"></td>
+    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" height="200"></td>
+    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="200"></td>
   </tr>
 </table>
 
