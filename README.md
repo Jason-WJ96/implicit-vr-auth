@@ -16,6 +16,11 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 
 <table align="center">
   <tr>
+    <td align="center"><b>Grabbing</b></td>
+    <td align="center"><b>Pointing</b></td>
+    <td align="center"><b>Typing</b></td>
+  </tr>
+  <tr>
     <td align="center">
       <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="200">
     </td>
@@ -25,11 +30,6 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
     <td align="center">
       <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="200">
     </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Grabbing</b></td>
-    <td align="center"><b>Pointing</b></td>
-    <td align="center"><b>Typing</b></td>
   </tr>
 </table>
 
