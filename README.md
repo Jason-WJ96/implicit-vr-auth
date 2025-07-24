@@ -35,17 +35,28 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 
 <hr>
 
-# How To Run
+## Installation
 
-## 1. Prerequisites
-This study has been run and tested in *Python==3.9.12*, in the following environment:
+### 1. Environment
+This study has been run and tested in the following environment:
 - *Windows 10 Pro 22H2*
+- *Python==3.9.12*
 
-## 2. Download Repository
+### 2. Prerequisites
 
-To access the full source code, please click the **"Download Repository"** button located at the top right corner of the following page: <a href="https://github.com/Jason-WJ96/implicit-vr-auth">https://github.com/Jason-WJ96/implicit-vr-auth</a>
 
-## 3. Python Venv
+### 2. Download Repository
+1. Move to the directory you want to import our repository.
+```bash
+$ cd path/to/working/directory
+```
+
+2. To download the source code and dataset in the directory, clone by the following command.
+```
+git clone https://github.com/Jason-WJ96/implicit-vr-auth.git
+```
+
+### 3. Python Venv
 To run the source codes in python virtual environment run the following code. 
 ```bash
 mkdir implicit_vr_auth
@@ -58,9 +69,15 @@ pip3 install -r requirements.txt
 
 If the installation via `pip3 install -r requirements.txt` fails, please install the required pip libraries manually by running each command listed in `pip_install_list.txt` inside your python virtual environment.
 
+
+
+## How To Run
+
+
+
 <hr>
 
-# Dataset
+## Dataset
 We opensource the dataset collected from 24 participants in our user study. Due to privacy concerns, we do not provide the raw sensor data of participants. Instead, we share feature data that was extracted through the feature extraction process described in our paper.
 
 The dataset is organized into three CSV files, each corresponding to a specific task. These are available in `./dataset` directory.
