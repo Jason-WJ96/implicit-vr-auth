@@ -33,6 +33,8 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
   </tr>
 </table>
 
+
+## Citation
 If you find it is helpful and used for publication, please kindly cite our work as:
 ```
 ```
