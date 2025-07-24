@@ -42,34 +42,28 @@ This study has been run and tested in the following environment:
 - *Windows 10 Pro 22H2*
 - *Python==3.9.12*
 
-### 2. Prerequisites
-
-
 ### 2. Download Repository
 1. Move to the directory you want to import our repository.
 ```bash
-$ cd path/to/working/directory
+cd path/to/working/directory
 ```
 
-2. To download the source code and dataset in the directory, clone by the following command.
-```
+2. To download the source code and dataset in the directory, clone by the following commands.
+```bash
 git clone https://github.com/Jason-WJ96/implicit-vr-auth.git
+cd implicit-vr-auth
 ```
 
 ### 3. Python Venv
-To run the source codes in python virtual environment run the following code. 
+We recommend using venv to run our repository. The following commands will help you how to create a new python virtual environment, activate it, and install python package.
 ```bash
-mkdir implicit_vr_auth
-cd implicit_vr_auth
-python3 -m venv imvrauth
+python -m venv imvrauth
 source imvrauth/bin/activate
-cd ../implicit-vr-auth-C4D9
-pip3 install -r requirements.txt
+cd ../implicit-vr-auth
+pip install -r requirements.txt
 ```
 
-If the installation via `pip3 install -r requirements.txt` fails, please install the required pip libraries manually by running each command listed in `pip_install_list.txt` inside your python virtual environment.
-
-
+If the installation via `pip install -r requirements.txt` fails, please install the required pip libraries manually by running each command listed in `pip_install_list.txt` inside your python virtual environment.
 
 ## How To Run
 
