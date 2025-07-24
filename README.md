@@ -14,16 +14,22 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 
 ## Three Tasks for  Authentication
 
-<!-- <p align="center">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" style="height:150px; width:auto; margin-right:10px;">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" style="height:150px; width:auto; margin-right:10px;">
-  <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" style="height:150px; width:auto;">
-</p> -->
-<table align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+<table align="center">
   <tr>
-    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="200"></td>
-    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" height="200"></td>
-    <td style="border: none;"><img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="200"></td>
+    <td align="center">
+      <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_grabbing.jpg" height="200">
+    </td>
+    <td align="center">
+      <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_pointing.jpg" height="200">
+    </td>
+    <td align="center">
+      <img src="https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/figures/Task_typing.jpg" height="200">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Grabbing</b></td>
+    <td align="center"><b>Pointing</b></td>
+    <td align="center"><b>Typing</b></td>
   </tr>
 </table>
 
