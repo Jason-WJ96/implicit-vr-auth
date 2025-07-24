@@ -33,6 +33,10 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
   </tr>
 </table>
 
+If you find it is helpful and used for publication, please kindly cite our work as:
+```
+```
+
 <hr>
 
 ## Installation
@@ -81,9 +85,3 @@ pointing_Dataframe_all.csv
 typing_Dataframe_all.csv
 ```
 Each file contains the following columns: *Index*, *Name*, *Study*, and 224 extracted features.
-
-<hr>
-
-If you find it is helpful and used for publication, please kindly cite our work as:
-```
-```
