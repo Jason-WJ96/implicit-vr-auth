@@ -165,5 +165,3 @@ pointing_Dataframe_all.csv
 typing_Dataframe_all.csv
 ```
 Each file contains the following columns: *Index*, *Name*, *Study*, and 224 extracted features.
-
-### 224 Features
