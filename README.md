@@ -37,6 +37,7 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 ## Citation
 If you find it is helpful and used for publication, please kindly cite our work as:
 ```
+    It will be added after the conference presentation.
 ```
 
 <hr>
@@ -49,12 +50,12 @@ This study has been run and tested in the following environment:
 - *Python==3.9.12*
 
 ### 2. Download Repository
-1. Move to the directory you want to import our repository.
+Move to the directory you want to import our repository.
 ```bash
 cd path/to/working/directory
 ```
 
-2. To download the source code and dataset in the directory, clone by the following commands.
+To download the source code and dataset in the directory, clone by the following commands.
 ```bash
 git clone https://github.com/Jason-WJ96/implicit-vr-auth.git
 cd implicit-vr-auth
