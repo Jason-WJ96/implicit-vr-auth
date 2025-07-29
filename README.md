@@ -83,7 +83,7 @@ In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can con
 Below is a description of each configurable parameter along with example values:
 
 ### 🔹Task List (`task_list`)
-Define the tasks you want to evaluate in your experiment.
+Add all the tasks you want to evaluate in your experiment to the list below.
 ```python
 task_list = [
     'grabbing',
@@ -93,7 +93,7 @@ task_list = [
 ```
 
 ### 🔹Training Scenario (`scenario_list`)
-Specify the learning scenario(s) to apply. You can comment or uncomment scenarios as needed.
+Add all the training scenarios to the list below.
 ```python
 scenario_list = [
     'Scen1', 
@@ -102,7 +102,7 @@ scenario_list = [
 ```
 
 ### 🔹Classifier Models  (`model_list`)
-Select one or more classifier models to use for training and evaluation.
+Add all the classifier models you want to use for training and evaluation to the list below.
 ```python
 model_list = {
     'RF': RandomForestClassifier(random_state=42),
@@ -114,7 +114,7 @@ model_list = {
 ```
 
 ### 🔹Reference User Group (`ref_list`)
-Define the user groups used for reference or comparison in the experiments.
+Add all the reference user groups you want to use for training and evaluation to the list below.
 ```python
 ref_list = {
     'BaseGroup': basegroup_list,
@@ -126,7 +126,7 @@ ref_list = {
 ```
 
 ### 🔹Data Augmentation (`data_aug_list`)
-Select the data augmentation techniques to apply to the training data.
+Add all the desired data augmentation techniques you want to evaluate in the experiment to the list below.
 ```python
 data_aug_list = [
     'NoAug',
@@ -146,7 +146,7 @@ feature_category_list = [
 ]
 ```
 
-Configure the above parameters according to your experimental goals to test different combinations and analyze their impact on model performance. Each setting can be modified directly within the main-implicit_vr_auth.ipynb notebook.
+Configure the above parameters according to your experimental goals to test different combinations and analyze their impact on model performance. Each setting can be modified directly within `the main-implicit_vr_auth.ipynb` file.
 
 <hr>
 
