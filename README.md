@@ -37,7 +37,7 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 ## Citation
 If you find it is helpful and used for publication, please kindly cite our work as:
 ```
-    It will be added after the conference presentation.
+    *It will be added after the conference presentation.*
 ```
 
 <hr>
