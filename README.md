@@ -73,7 +73,16 @@ If the installation via `pip install -r requirements.txt` fails, please install 
 
 ## How To Run
 
+To run Jupyter notebook, execute the following command.
+```bash
+jupyter notebook
+```
 
+### 
+
+### 2. Select Paramter
+
+### 3.
 
 <hr>
 
@@ -87,3 +96,5 @@ pointing_Dataframe_all.csv
 typing_Dataframe_all.csv
 ```
 Each file contains the following columns: *Index*, *Name*, *Study*, and 224 extracted features.
+
+### 224 Features
