@@ -61,7 +61,7 @@ git clone https://github.com/Jason-WJ96/implicit-vr-auth.git
 cd implicit-vr-auth
 ```
 
-### 3. Python Venv
+### 3. Python Virtual Environment
 We recommend using venv to run our repository. The following commands will help you how to create a new python virtual environment, activate it, and install python package.
 ```bash
 python -m venv imvrauth
@@ -147,7 +147,11 @@ feature_category_list = [
 ]
 ```
 
-Configure the above parameters according to your experimental goals to test different combinations and analyze their impact on model performance. Each setting can be modified directly within `the main-implicit_vr_auth.ipynb` file.
+Configure the above parameters according to your experimental goals to test different combinations and analyze their impact on model performance. Each setting can be modified directly within the `main-implicit_vr_auth.ipynb` file.
+
+
+Then, run the `main-implicit_vr_auth.ipynb`. 
+This will create a folder named `Result-EER` inside the `./implicit-vr-auth` directory, where you can find the resulting CSV files.
 
 <hr>
 
