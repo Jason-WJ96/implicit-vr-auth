@@ -78,7 +78,7 @@ To run Jupyter notebook, execute the following command.
 jupyter notebook
 ```
 
-In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can configure the experimental settings by editing the predefined parameter lists. Adjusting these parameters allows you to evaluate the model under various conditions such as task types, training scenarios, classifiers, reference groups, data augmentation techniques, and feature categories.
+In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can configure the experimental settings by editing the predefined parameter lists. Adjusting these parameters allows you to evaluate the model under various conditions such as task types, training scenarios, classifiers, reference groups, data augmentation techniques, and feature categories. For detailed descriptions of each parameter, please refer to the [paper]().
 
 Below is a description of each configurable parameter along with example values:
 
