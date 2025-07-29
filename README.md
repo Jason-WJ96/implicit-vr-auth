@@ -82,11 +82,8 @@ In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can con
 
 Below is a description of each configurable parameter along with example values:
 
----
-
-### 🔹 Task List (`task_list`)
+### 🔹Task List (`task_list`)
 Define the tasks you want to evaluate in your experiment.
-
 ```python
 task_list = [
     'grabbing',
@@ -95,15 +92,61 @@ task_list = [
 ]
 ```
 
-### 🔹 Training Scenario (`scenario_list`)
+### 🔹Training Scenario (`scenario_list`)
 Specify the learning scenario(s) to apply. You can comment or uncomment scenarios as needed.
-
 ```python
 scenario_list = [
     'Scen1', 
     'Scen2'
 ]
 ```
+
+### 🔹Classifier Models  (`model_list`)
+Select one or more classifier models to use for training and evaluation.
+```python
+model_list = {
+    'RF': RandomForestClassifier(random_state=42),
+    'SVM': SVC(probability=True, random_state=42),
+    'LR': LogisticRegression(random_state=42),
+    'GradientBoost': GradientBoostingClassifier(random_state=42),
+    'DecisionTree': DecisionTreeClassifier(random_state=42)
+}
+```
+
+### 🔹Reference User Group (`ref_list`)
+Define the user groups used for reference or comparison in the experiments.
+```python
+ref_list = {
+    'BaseGroup': basegroup_list,
+    'SubGroup1': subgroup1_list,
+    'SubGroup2': subgroup2_list,
+    'SubGroup3': subgroup3_list,
+    'SubGroup4': subgroup4_list,
+}
+```
+
+### 🔹Data Augmentation (`data_aug_list`)
+Select the data augmentation techniques to apply to the training data.
+```python
+data_aug_list = [
+    'NoAug',
+    'SMOTE', 
+    'VAE'             
+]
+```
+
+### 🔹Feature Category (`feature_category_list`)
+Choose which categories of features to include in the input data.
+```python
+feature_category_list = [
+    'movement',
+    'spatial', 
+    'orientation', 
+    'interaction'
+]
+```
+
+Configure the above parameters according to your experimental goals to test different combinations and analyze their impact on model performance. Each setting can be modified directly within the main-implicit_vr_auth.ipynb notebook.
 
 <hr>
 
