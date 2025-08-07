@@ -164,4 +164,4 @@ grabbing_Dataframe_all.csv
 pointing_Dataframe_all.csv
 typing_Dataframe_all.csv
 ```
-Each file contains the following columns: *Index*, *Name*, *Study*, and [224 extracted features]().
+Each file contains the following columns: *Index*, *Name*, *Study*, and [224 extracted features](https://github.com/Jason-WJ96/implicit-vr-auth/blob/main/dataset/Feature_category.yaml).
