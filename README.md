@@ -61,7 +61,7 @@ git clone https://github.com/Jason-WJ96/implicit-vr-auth.git
 cd implicit-vr-auth
 ```
 
-### 3. Python Virtual Environment
+### 3. Setup Python Virtual Environment
 We recommend using venv to run our repository. The following commands will help you how to create a new python virtual environment, activate it, and install python package.
 ```bash
 python -m venv imvrauth
