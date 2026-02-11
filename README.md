@@ -1,6 +1,6 @@
 <!-- # Implicit VR User Authentication -->
 
-# [*Accepted to the [RAID 2025](https://raid2025.github.io/index.html)*] When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
+# [*[RAID 2025](https://raid2025.github.io/index.html)*] When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
 
 #### Woojin Jeon*, Chaejin Lim*, and Hyoungshick Kim*.
 ##### **Sungkyunkwan University*
@@ -86,7 +86,7 @@ To run Jupyter notebook, execute the following command.
 jupyter notebook
 ```
 
-In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can configure the experimental settings by editing the predefined parameter lists. Adjusting these parameters allows you to evaluate the model under various conditions such as task types, training scenarios, classifiers, reference groups, data augmentation techniques, and feature categories. For detailed descriptions of each parameter, please refer to the [paper]().
+In the **Parameter** cell of the `main-implicit_vr_auth.ipynb` file, you can configure the experimental settings by editing the predefined parameter lists. Adjusting these parameters allows you to evaluate the model under various conditions such as task types, training scenarios, classifiers, reference groups, data augmentation techniques, and feature categories. For detailed descriptions of each parameter, please refer to the [paper](https://ieeexplore.ieee.org/abstract/document/11352484).
 
 Below is a description of each configurable parameter along with example values:
 
