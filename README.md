@@ -37,7 +37,14 @@ We present a practical implicit authentication system for Virtual Reality (VR) t
 ## Citation
 If you find it is helpful and used for publication, please kindly cite our work as:
 ```
-    * Citation information will be updated post-conference.*
+@inproceedings{jeon2025inter,
+  title={When (Inter) actions Speak Louder Than (Pass) words: Task-Based Evaluation of Implicit Authentication in Virtual Reality},
+  author={Jeon, Woojin and Lim, Chaejin and Kim, Hyoungshick},
+  booktitle={2025 28th International Symposium on Research in Attacks, Intrusions and Defenses (RAID)},
+  pages={284--297},
+  year={2025},
+  organization={IEEE}
+}
 ```
 
 <hr>
