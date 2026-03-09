@@ -1,6 +1,6 @@
 <!-- # Implicit VR User Authentication -->
 
-# [*[RAID 2025](https://raid2025.github.io/index.html)*] When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
+# [[RAID 2025](https://raid2025.github.io/index.html)] When (Inter)actions Speak Louder Than (Pass)words: Task-Based Evaluation of Implicit Authentication in Virtual Reality
 
 #### [Woojin Jeon*](https://scholar.google.com/citations?user=MaJNzcsAAAAJ), Chaejin Lim*, and Hyoungshick Kim*.
 ##### **Sungkyunkwan University*
